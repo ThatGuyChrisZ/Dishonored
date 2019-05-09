@@ -14,7 +14,7 @@ $.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0
 console.log(response2)
         response2.values.forEach(function(e){
                 console.log(e)
-        document.getElementById("box2").innerHTML += `<p> ${e[0]}: </p> <p> ${e[1]}</p> <p>e[2]</p> <p></p><hr>`        })
+        document.getElementById("box2").innerHTML += `<p> ${e[0]}: </p> <p> ${e[1]}</p> <p>${e[2]}</p> <p></p><hr>`        })
         
 //}});
 
