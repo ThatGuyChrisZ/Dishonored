@@ -50,6 +50,9 @@ body{}.box1{
   text-align:  Center;
   
 }
+::-webkit-scrollbar {
+  hidden: true;
+}
 body{}.box2{
    margin-top: 0px;
 top: 67%;
