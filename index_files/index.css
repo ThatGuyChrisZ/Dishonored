@@ -61,6 +61,7 @@ top: 67%;
   height: 27%;
   left: 15%;
   text-align:  Center;
+overflow-y:scroll;
   
   
 }
