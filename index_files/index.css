@@ -65,6 +65,8 @@ top: 67%;
   left: 15%;
   text-align:  Center;
 overflow-y:scroll;
+overflow: -moz-scrollbars-none;
+-webkit-scrollbar { width: 0 !important }
   
   
 }
