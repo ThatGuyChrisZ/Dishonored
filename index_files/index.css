@@ -111,10 +111,22 @@ body{}.sub{
 	
 	
 }
-body{}.sidebox{
-position:fixed;
-	width: 18%;
+body{}.sub1{
+   margin-top: 0px;
+   margin-bottom: 1px;
+  color: black;
+  background-color: #D4AF37;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+	position:fixed;
+	width:18%;
+	
+	
+ 
+	
+	
 }
+
 body{}.menu{
 	z-index: 4;
 	position: fixed;
