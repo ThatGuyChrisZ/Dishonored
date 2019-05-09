@@ -3,7 +3,7 @@ $.post('https://node.c-development.com', {id_token:"key"})
             // The user is now signed in on the server //too
             // and the user should now have a session //cookie
             // for the whole site. 
-  console.log(user)
+  console.log("Key Retrieved")
   
   
       
@@ -18,7 +18,7 @@ $.get(`https://sheets.googleapis.com/v4/spreadsheets/17LQRcFltbcj-JjAws34frcPM00
   var filtered = prep1.filter(function(value, index, arr){
     return value.includes(".txt")
 })
-console.log(filtered)
+console.log("Filtered:" + filtered)
 }
 )
 
