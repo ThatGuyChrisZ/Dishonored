@@ -8,7 +8,7 @@ $.post('https://node.c-development.com', {id_token:"key"})
   
   
       
-$.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0iEVH_W9RM7P57KXwk/values/Sheet1!A3:c?key=${user}`, function (response2) {
+$.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0iEVH_W9RM7P57KXwk/values/Sheet1!A3:c&D1?key=${user}`, function (response2) {
 //var source = $(`${response}`);
 //$('#files js-navigation-container js-active-navigation-container').html(source),function(responce2){
 console.log(response2)
