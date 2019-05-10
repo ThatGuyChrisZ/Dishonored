@@ -90,6 +90,16 @@ body{}.top{
 
   
 }
+body{}.left{
+	position: fixed;
+	left: 20%;
+
+}
+body{}.right{
+	position: fixed;
+	left: 20%;
+
+}
 body{}.title{
    margin-top: 0px;
   color: black;
