@@ -14,7 +14,7 @@ $.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0
 console.log(response2)
         response2.values.forEach(function(e){
                 console.log(e)
- document.getElementById("body").innerHTML += `<span><iframe src="${e + "/embed"}" width = "30%" height = "300px"}"> </iframe> </span>`})
+ document.getElementById("body").innerHTML += `<span><iframe src="${e + "/embed"}" width = "32.5%" height = "300px"}"> </iframe> </span>`})
         
 //}});
 
