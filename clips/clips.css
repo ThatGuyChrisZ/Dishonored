@@ -1,0 +1,14 @@
+body{
+ background: 
+   radial-gradient(circle at top left,#6d6d6d -20%, #282828, transparent),
+   radial-gradient(circle at top right,#6d6d6d 0%, #282828, transparent),
+   radial-gradient(circle at bottom left,#6d6d6d 0%, #282828, transparent),
+   radial-gradient(circle at bottom right,#6d6d6d 0%, #282828, transparent);
+  
+
+
+  
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
