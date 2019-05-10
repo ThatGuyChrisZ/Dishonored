@@ -97,7 +97,7 @@ body{}.left{
 }
 body{}.right{
 	position: fixed;
-	left: 80%;
+	right: 20%;
 
 }
 body{}.title{
