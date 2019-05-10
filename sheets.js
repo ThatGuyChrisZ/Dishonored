@@ -20,7 +20,7 @@ console.log(response2)
 
 }
 )
-        $.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0iEVH_W9RM7P57KXwk/values/Sheet1!D3:D3?key=${user}`, function (response3) {
+        $.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0iEVH_W9RM7P57KXwk/values/Sheet1!E3:E3?key=${user}`, function (response3) {
                 document.getElementById("mainbody").innerHTML+= response3.values[0] 
         });
 
