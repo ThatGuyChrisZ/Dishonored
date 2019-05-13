@@ -118,6 +118,7 @@ body{}.right{
 }
 body{}.title{
    margin-top: 0px;
+	margin-bottom: 0px;
   color: black;
   background-color: #D4AF37;
   border-top-right-radius: 10px;
