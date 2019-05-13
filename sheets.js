@@ -27,9 +27,9 @@ console.log(response2)
                 var splot = document.getElementById("announce").innerHTML.split("");
                 var inlined = 0;
                setInterval(function(){
-                       inlined++
+                       inlined+= -1
                     
-                 document.getElementById("announce").style.marginRight = inlined + "px"
+                 document.getElementById("announce").style.textindent = inlined + "px"
 },10)
                 
                 
