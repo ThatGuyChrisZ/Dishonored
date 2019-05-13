@@ -29,7 +29,7 @@ console.log(response2)
                setInterval(function(){
                        inlined+= -1
                     
-                 document.getElementById("announce").style.textindent = inlined + "px"
+                 document.getElementById("announce").style.textIndent = inlined + "px"
 },10)
                 
                 
