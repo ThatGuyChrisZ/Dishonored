@@ -25,7 +25,14 @@ console.log(response2)
                 document.getElementById("mainbody").innerHTML+= response3.values[0] 
                  document.getElementById("announce").innerHTML= response3.values[14] 
                 var splot = document.getElementById("announce").innerHTML.split("");
-          
+                    var initial =  document.getElementById("announce").innerHTML.toString().length + 20
+                var inlined = initial
+               setInterval(function(){
+                       inlined +=-1
+                      
+                    
+                 document.getElementById("announce").style.textIndent = inlined.toString() + "em"
+},10)
                 
                 
         });
