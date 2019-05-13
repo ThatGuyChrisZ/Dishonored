@@ -29,7 +29,7 @@ console.log(response2)
                setInterval(function(){
                        inlined++
                     
-                 document.getElementById("announce").style.paddingRight = inlined + "px"
+                 document.getElementById("announce").style.marginRight = inlined + "px"
 },10)
                 
                 
