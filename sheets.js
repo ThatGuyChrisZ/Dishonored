@@ -27,7 +27,7 @@ console.log(response2)
                 var splot = document.getElementById("announce").innerHTML.split("");
                 var inlined = 0;
                setInterval(function(){
-                       inlined+= -1
+                       inlined+= 5
                     
                  document.getElementById("announce").style.textIndent = inlined + "em"
 },10)
