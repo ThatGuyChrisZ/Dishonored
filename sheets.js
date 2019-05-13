@@ -26,9 +26,9 @@ console.log(response2)
                  document.getElementById("announce").innerHTML= response3.values[14] 
                 var splot = document.getElementById("announce").innerHTML.split("");
                 var inlined = 0;
-                setInterval(function(){
-                 document.getElementById("announce").stlye.paddingRight = `"${inlined+=1}"` 
-                },10)
+               setInterval(function(){
+                 document.getElementById("announce").style.paddingRight = `"${inlined+=1}"px` 
+},10)
                 
                 
         });
