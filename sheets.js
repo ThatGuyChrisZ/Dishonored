@@ -27,7 +27,7 @@ console.log(response2)
                 var splot = document.getElementById("announce").innerHTML.split("");
                 var inlined = 0;
                 setInterval(function(){
-                 document.getElementById("announce").stlye.padding-inline= `"${inlined+=-1}"` 
+                 document.getElementById("announce").stlye.paddingRight = `"${inlined+=1}"` 
                 },10)
                 
                 
