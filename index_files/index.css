@@ -39,7 +39,7 @@ body{}.annon{
   background-color: #183056;
   text-align:  left;
 	width:100%;
-	display:inline;
+	display:inline-block;
 	overflow: hidden;
 
 }
