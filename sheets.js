@@ -24,6 +24,13 @@ console.log(response2)
               console.log(response3)
                 document.getElementById("mainbody").innerHTML+= response3.values[0] 
                  document.getElementById("announce").innerHTML= response3.values[14] 
+                var splot = document.getElementById("announce").innerHTML.split("");
+                var inlined = 0;
+                setInterval(function(){
+                 document.getElementById("announce").stlye.padding-inline= `"${inlined+=-1}"` 
+                },10)
+                
+                
         });
 
  })
