@@ -36,9 +36,7 @@ body{}.main{
 body{}.annon{
 	   margin-top: 0px;
   color: white;
-  background-color: blue;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  background-color: #183056;
   text-align:  right;
 
 }
