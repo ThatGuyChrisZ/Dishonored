@@ -36,7 +36,7 @@ console.log(response2)
                       
                     
                  document.getElementById("announce").style.textIndent = inlined.toString() + "em"
-                       if(inlined  < initial * -1){
+                       if(inlined  < (initial * -1) -20){
                        inlined = initial
                        }
 },10)
