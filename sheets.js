@@ -3,10 +3,8 @@ function isMobileDevice() {
     console.log( (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1));
 };
 
-var mobiler = function isMobileDevice2() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-};
-console.log(isMobileDevice())
+
+var mobiler = isMobileDevice();
 
 $.post('https://node.c-development.com', {id_token:"key"})
         .then(function(user) {
@@ -15,6 +13,11 @@ $.post('https://node.c-development.com', {id_token:"key"})
             // for the whole site. 
   console.log("Key Retrieved")
   console.log(mobiler)
+    if(mobiler == false){
+    document.getElementById("mobile").innerHTML = "Is not a Mobile Device [VERIFIED]"
+    }else{
+    document.getElementById("mobile").innerHTML = "Is a Mobile Device [VERIFIED]"
+    }
         
   
   
