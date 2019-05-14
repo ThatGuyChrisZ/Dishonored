@@ -14,10 +14,9 @@ $.post('https://node.c-development.com', {id_token:"key"})
   console.log("Key Retrieved")
   console.log(mobiler)
     if(mobiler == false){
-    document.getElementById("mobile").innerHTML = "Is not a Mobile Device [VERIFIED]"
+    document.getElementById("mobile").innerHTML = "Is not a Mobile Device [VERIFIED]"+ "<br>" 
     }else{
-    document.getElementById("mobile").innerHTML = "Is a Mobile Device [VERIFIED]"
-    }
+    document.getElementById("mobile").innerHTML = "Is a Mobile Device [VERIFIED]" + "<br>"    
         
   
   
