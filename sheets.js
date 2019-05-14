@@ -26,8 +26,9 @@ console.log(response2)
                  document.getElementById("announce").innerHTML= response3.values[14]
                 var length = document.getElementById("announce").innerHTML= response3.values[14]
                 var splot = document.getElementById("announce").innerHTML.split("");
-              var initial =  document.getElementById("announce").getBoundingClientRect().width - (document.getElementById("announce").getBoundingClientRect().width - document.getElementById("announce").innerHTML.toString().length) 
+              var initial =  document.getElementById("announce").getBoundingClientRect().width / document.getElementById("announce").style.fontSize   
               var height2 =  document.getElementById("announce").getBoundingClientRect().height
+              console.log(initial)
               document.getElementById("announce").style.height = height2
                 var inlined = initial
                setInterval(function(){
