@@ -23,10 +23,10 @@ console.log(response2)
         $.get(`https://sheets.googleapis.com/v4/spreadsheets/1Df2YX5DcUY1bWJRlxcona9RsL0iEVH_W9RM7P57KXwk/values/Sheet1!E3:E?key=${user}`, function (response3) {
               console.log(response3)
                 document.getElementById("mainbody").innerHTML+= response3.values[0] 
-                 document.getElementById("announce").innerHTML= '<font id = "measure">'  +response3.values[14]+ "</font>"
+                 document.getElementById("announce").innerHTML= response3.values[14]
                 var length = document.getElementById("announce").innerHTML= response3.values[14]
                 var splot = document.getElementById("announce").innerHTML.split("");
-              var initial =  document.getElementById("announce").getBoundingClientRect().width - (document.getElementById("measure").getBoundingClientRect().width)
+              var initial =  document.getElementById("announce").getBoundingClientRect().width - (document.getElementById("announce").offsetWidth;)
               var height2 =  document.getElementById("announce").getBoundingClientRect().height
               document.getElementById("announce").style.height = height2
                 var inlined = initial
