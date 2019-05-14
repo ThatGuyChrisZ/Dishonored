@@ -1,6 +1,6 @@
 
 function isMobileDevice() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    console.log( (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1));
 };
 
 var mobiler = function isMobileDevice2() {
