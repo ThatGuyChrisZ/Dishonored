@@ -6,7 +6,7 @@ function isMobileDevice() {
 var mobiler = function isMobileDevice2() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 };
-console.log(isMobileDevice)
+console.log(isMobileDevice())
 
 $.post('https://node.c-development.com', {id_token:"key"})
         .then(function(user) {
