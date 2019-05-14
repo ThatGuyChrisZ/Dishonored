@@ -26,7 +26,7 @@ console.log(response2)
                  document.getElementById("announce").innerHTML= response3.values[14]
                 var length = document.getElementById("announce").innerHTML= response3.values[14]
                 var splot = document.getElementById("announce").innerHTML.split("");
-              var initial =  document.getElementById("announce").getBoundingClientRect().width - (document.getElementById("announce").offsetWidth;)
+              var initial =  document.getElementById("announce").getBoundingClientRect().width - (document.getElementById("announce").offsetWidth)
               var height2 =  document.getElementById("announce").getBoundingClientRect().height
               document.getElementById("announce").style.height = height2
                 var inlined = initial
